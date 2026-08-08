@@ -34,7 +34,7 @@ This portfolio is my practical exploration of that foundation.
 
 This portfolio is designed as **one coherent body of work made of four connected projects**.
 
-Each project focuses on a different kind of AI data or evaluation task, while contributing to the same broader objective:
+Each project focuses on a different kind of AI data or evaluation task, while contributing to the same broader objective. Quality assurance isn't a separate project here — it's a step every project goes through, documented inside each one:
 
 ```text
 Raw Multimodal Data
@@ -75,12 +75,16 @@ The four projects cover:
 
 ## The Four Projects
 
-| #  | Project                        | Data          | Main Focus                                     | Tools                       |
-| -- | ------------------------------ | ------------- | ---------------------------------------------- | --------------------------- |
-| 01 | **Visual Knowledge**           | Image         | Detection, segmentation, classification, QA    | Labelbox, CVAT              |
-| 02 | **Structured Human Knowledge** | Text          | NER, classification, claims, evidence, QA      | Doccano, Prodigy            |
-| 03 | **Multimodal Understanding**   | Audio + Video | Events, objects, actions, tracking             | Label Studio, CVAT, Prodigy |
-| 04 | **Reliable AI Evaluation**     | Text / LLM    | RLHF-style evaluation, ranking, factuality, QA | Labelbox, Label Studio      |
+| #  | Project                        | Data          | Main Focus                                     | Tools (hands-on in this repo)        |
+| -- | ------------------------------ | ------------- | ----------------------------------------------- | -------------------------------------- |
+| 01 | **Visual Knowledge**           | Image         | Detection, segmentation, classification, OCR    | CVAT                                   |
+| 02 | **Structured Human Knowledge** | Text          | NER, classification, claims, evidence, QA       | Label Studio                           |
+| 03 | **Multimodal Understanding**   | Audio + Video | Classification, tracking, transcription         | Label Studio, CVAT                     |
+| 04 | **Reliable AI Evaluation**     | Text / LLM    | RLHF-style evaluation, ranking, factuality       | Label Studio                           |
+
+I also have paid, professional annotation experience with **Labelbox, Doccano, and Prodigy** through freelance work on Upwork — not reused here to avoid demonstrating the same tool twice, but referenced in my resume and LinkedIn.
+
+Every project's own README includes a short **Quality Assurance** section — a second, independent review pass over a sample of my own first-pass labels, with an error log — so the QA step in the pipeline above is something you can actually check, not just a label in a diagram.
 
 ---
 
@@ -89,7 +93,7 @@ The four projects cover:
 ```text
 Project 01 → Visual data → COCO-style annotation → QA
 Project 02 → Text data → CoNLL / SQuAD-style annotation → QA
-Project 03 → Audio & video data → temporal annotation → QA
+Project 03 → Audio & video data → classification & tracking → QA
 Project 04 → LLM responses → preference / factuality evaluation → QA
 ```
 
@@ -103,16 +107,18 @@ Project 04 → LLM responses → preference / factuality evaluation → QA
 * Image annotation
 * Bounding boxes
 * Polygons
-* Semantic segmentation
-* Instance segmentation
+* Image classification
 * Video annotation
 * Object tracking
+* Video classification
 * Audio annotation
-* Temporal annotation
+* Transcription (ASR)
+* Speaker diarization
+* Audio classification/tagging
 * Text annotation
 * Named Entity Recognition (NER)
 * Text classification
-* Question answering
+* Question answering / evidence-span annotation
 * AI response evaluation
 
 </details>
@@ -120,22 +126,18 @@ Project 04 → LLM responses → preference / factuality evaluation → QA
 <details>
 <summary><strong>Annotation Tools</strong></summary>
 
-* Labelbox
-* CVAT
-* Doccano
-* Prodigy
-* Label Studio
+* **Label Studio** and **CVAT** — hands-on in this portfolio
+* Labelbox, Doccano, Prodigy — professional experience via freelance work (see resume)
 
 </details>
 
 <details>
 <summary><strong>Data Formats & Standards</strong></summary>
 
-* COCO
-* ImageNet concepts
-* CoNLL-style BIO tagging
-* SQuAD-style question answering
-* AudioSet ontology
+* COCO (object detection/segmentation)
+* CoNLL-style BIO tagging (NER)
+* SQuAD-style extractive QA (claim–evidence spans)
+* Familiarity with ImageNet-style classification structuring and AudioSet-style tagging taxonomies, applied conceptually where relevant
 
 </details>
 
@@ -189,21 +191,25 @@ Project 04 → LLM responses → preference / factuality evaluation → QA
 
 ## Tools
 
-* `Labelbox`
+**Used hands-on in this portfolio:**
+* `Label Studio`
 * `CVAT`
+
+**Professional experience (via freelance work, not repeated here):**
+* `Labelbox`
 * `Doccano`
 * `Prodigy`
-* `Label Studio`
-
----
 
 ## Data Formats & Standards
 
+**Produced in this portfolio:**
 * `COCO`
-* `ImageNet`
 * `CoNLL`
-* `SQuAD`
-* `AudioSet`
+* `SQuAD`-style
+
+**Familiar with (applied conceptually, not as a strict benchmark reproduction):**
+* `ImageNet`-style classification structuring
+* `AudioSet`-style tagging taxonomies
 
 ---
 
