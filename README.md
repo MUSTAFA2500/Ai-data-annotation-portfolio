@@ -1,6 +1,6 @@
 # AI Data Annotation & Evaluation Portfolio
 
-> A practical portfolio demonstrating my ability to create data and evaluation signals for more reliable AI systems.
+> A practical portfolio demonstrating my ability to create data and evaluation signals for more reliable AI systems, built while preparing to start a career in this field.
 
 ---
 
@@ -26,7 +26,7 @@ At the same time, AI does not automatically produce reliable knowledge simply be
 
 Hallucinations, bias, factual errors, and opacity are real problems. For that reason, I believe that **high-quality data, careful annotation, rigorous quality assurance, factual verification, and human evaluation** are essential foundations for building more reliable AI systems.
 
-This portfolio is my practical exploration of that foundation.
+This portfolio is my practical exploration of that foundation — and my preparation for entering the field. I'm building it through self-directed, hands-on work rather than documenting prior paid projects, so every tool, format, and workflow here is something I actually did, not something I'm claiming from past employment.
 
 ---
 
@@ -75,14 +75,12 @@ The four projects cover:
 
 ## The Four Projects
 
-| #  | Project                        | Data          | Main Focus                                     | Tools (hands-on in this repo)        |
-| -- | ------------------------------ | ------------- | ----------------------------------------------- | -------------------------------------- |
-| 01 | **Visual Knowledge**           | Image         | Detection, segmentation, classification, OCR    | CVAT                                   |
-| 02 | **Structured Human Knowledge** | Text          | NER, classification, claims, evidence, QA       | Label Studio                           |
-| 03 | **Multimodal Understanding**   | Audio + Video | Classification, tracking, transcription         | Label Studio, CVAT                     |
-| 04 | **Reliable AI Evaluation**     | Text / LLM    | RLHF-style evaluation, ranking, factuality       | Label Studio                           |
-
-I also have paid, professional annotation experience with **Labelbox, Doccano, and Prodigy** through freelance work on Upwork — not reused here to avoid demonstrating the same tool twice, but referenced in my resume and LinkedIn.
+| #  | Project                        | Data          | Main Focus                                     | Tools (hands-on in this repo) |
+| -- | ------------------------------ | ------------- | ----------------------------------------------- | -------------------------------- |
+| 01 | **Visual Knowledge**           | Image         | Detection, segmentation, classification, OCR    | CVAT, Labelbox                   |
+| 02 | **Structured Human Knowledge** | Text          | NER, classification, claims, evidence, QA       | Doccano                          |
+| 03 | **Multimodal Understanding**   | Audio + Video | Classification, tracking, transcription         | Label Studio, CVAT               |
+| 04 | **Reliable AI Evaluation**     | Text / LLM    | RLHF-style evaluation, ranking, factuality       | Label Studio                     |
 
 Every project's own README includes a short **Quality Assurance** section — a second, independent review pass over a sample of my own first-pass labels, with an error log — so the QA step in the pipeline above is something you can actually check, not just a label in a diagram.
 
@@ -126,8 +124,8 @@ Project 04 → LLM responses → preference / factuality evaluation → QA
 <details>
 <summary><strong>Annotation Tools</strong></summary>
 
-* **Label Studio** and **CVAT** — hands-on in this portfolio
-* Labelbox, Doccano, Prodigy — professional experience via freelance work (see resume)
+* **CVAT, Labelbox, Doccano, Label Studio** — hands-on, used to build the deliverables in this repo
+* **Prodigy** — not used here; it's a paid, license-only tool with no individual trial available, so I'm not claiming hands-on experience with it. I understand its active-learning/recipe-based approach from documentation and would pick it up quickly given access.
 
 </details>
 
@@ -191,14 +189,14 @@ Project 04 → LLM responses → preference / factuality evaluation → QA
 
 ## Tools
 
-**Used hands-on in this portfolio:**
-* `Label Studio`
+**Used hands-on to build this portfolio:**
 * `CVAT`
-
-**Professional experience (via freelance work, not repeated here):**
 * `Labelbox`
 * `Doccano`
-* `Prodigy`
+* `Label Studio`
+
+**Not yet hands-on (paid, no individual trial):**
+* `Prodigy` — familiar with its approach through documentation, not yet used in practice
 
 ## Data Formats & Standards
 
@@ -264,6 +262,6 @@ ai-data-annotation-portfolio/
 
 **In Progress**
 
-The portfolio will be developed incrementally, with each project contributing to the same broader objective:
+I'm building this portfolio as part of my transition into data annotation and RLHF work — it's how I'm learning the tools and proving I can do the job, not a record of prior paid annotation projects. Each project contributes to the same broader objective:
 
 > Transforming raw multimodal information into high-quality structured data and reliable human evaluation signals that can support the development of more accurate, transparent, and useful AI systems.
