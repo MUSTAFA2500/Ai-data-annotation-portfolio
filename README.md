@@ -1,6 +1,6 @@
 # AI Data Annotation & Evaluation Portfolio
 
-> A practical portfolio demonstrating my ability to create data and evaluation signals for more reliable AI systems, built while preparing to start a career in this field.
+> A practical portfolio demonstrating my ability to create high-quality training data and evaluation signals for building more reliable AI systems.
 
 ---
 
